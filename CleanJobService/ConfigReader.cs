@@ -61,6 +61,7 @@ namespace CleanJobService
                 if (flag == 1)
                 {
                     GlobleParams.configListAdd(infor);
+                    infor = new DeleteConfigInfo();
                     flag = 0;
                 }
                 else if (flag == -1)
