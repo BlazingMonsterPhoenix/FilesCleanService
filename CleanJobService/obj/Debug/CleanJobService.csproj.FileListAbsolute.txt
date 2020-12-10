@@ -1,0 +1,7 @@
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\bin\Debug\CleanJobService.exe.config
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\bin\Debug\CleanJobService.exe
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\bin\Debug\CleanJobService.pdb
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\obj\Debug\CleanJobService.exe
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\obj\Debug\CleanJobService.pdb
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\obj\Debug\CleanJobService.ProjectInstaller.resources
+G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\edgink_core\DailyTestOrDemoForC#\CleanJobService\obj\Debug\CleanJobService.csproj.GenerateResource.Cache
