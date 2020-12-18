@@ -13,7 +13,9 @@ namespace CleanJobService
         //配置文件文件名
         private static string configFileName = "CleanJobConfig.txt";
         //日志文件所在文件夹目录
-        private static string logDirectory = "C:\\CleanJob\\Log";
+        private static string logDirectory = "D:\\ATE_DATA\\CleanJobLog";
+
+        private static string logPath;
 
         //执行频率（单位：分钟）
         private static int frequency = -1;
@@ -39,6 +41,11 @@ namespace CleanJobService
             configList.Add(d);
         }
 
+        public static void setLogPath(string lp)
+        {
+            logPath = lp;
+        }
+
         /********** getter方法列表 **********/
         public static string getConfigDirectory()
         {
@@ -52,13 +59,13 @@ namespace CleanJobService
 
         public static string getLogDirectory()
         {
-            return logDirectory;
+            return logPath != null ? logPath : logDirectory; ;
         }
 
         public static string getLogPath()
         {
             string date = DateTime.Today.ToString();
-            return logDirectory + "\\log" + date.Substring(0, 4) + date.Substring(5, 2) + date.Substring(8, 2) + ".txt";
+            return getLogDirectory() + "\\log" + date.Substring(0, 4) + date.Substring(5, 2) + date.Substring(8, 2) + ".txt";
         }
 
         /**
@@ -78,7 +85,6 @@ namespace CleanJobService
         {
             return configList;
         }
-
 
     }
 }

@@ -85,6 +85,7 @@ namespace CleanJobService
         private static string getInitialConfigString()
         {
             StringBuilder sb = new StringBuilder();
+            sb.AppendLine("LP:D:\\ATE_DATA\\CleanJobLog");
             //执行频率（单位：分钟）
             sb.AppendLine("TF:30"); 
             //删除百分比（单位：%）

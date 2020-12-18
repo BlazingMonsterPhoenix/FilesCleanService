@@ -12,4 +12,3 @@ G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\FilesCleanService\CleanJobSe
 G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\FilesCleanService\CleanJobService\obj\Debug\FileCleanJobService.csproj.GenerateResource.Cache
 G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\FilesCleanService\CleanJobService\obj\Debug\CleanJobService.exe
 G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\FilesCleanService\CleanJobService\obj\Debug\CleanJobService.pdb
-G:\systemDevelopment\softwareWorkSpaces\C#WorkSpace\FilesCleanService\CleanJobService\obj\Debug\FileCleanJobService.csprojResolveAssemblyReference.cache

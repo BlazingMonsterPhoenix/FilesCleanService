@@ -26,6 +26,8 @@ namespace CleanJobService
             ConfigReader.read();
             //检查日志文件
             LogFileOperator.check();
+            //在日志中输出启动信息
+            printGlobleParams();
             //执行定时清理文件任务
             startTimeJob();
         }
@@ -49,5 +51,14 @@ namespace CleanJobService
             timer.Start();
         }
 
+        private static void printGlobleParams()
+        {
+            StringBuilder log = new StringBuilder();
+            log.AppendLine("当前时间：" + DateTime.Now.ToString() + " 服务启动...\n");
+            log.AppendLine("执行频率：" + GlobleParams.getFrequency() / 60000 + "分钟");
+            log.AppendLine("删除比例：" + GlobleParams.getDeletePercent() + "%");
+            log.AppendLine("共读取到：" + GlobleParams.getConfigList().Count() + "个需要检查的路径\n");
+            LogFileOperator.writeLog(log.ToString());
+        }
     }
 }
